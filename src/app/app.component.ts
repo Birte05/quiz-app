@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { QuestionsService } from './questions.service';
+import { QuestionsService } from './literature.service';
 import { Quiz, Answers, Choice } from './quiz.model';
 
 @Component({
@@ -7,6 +7,7 @@ import { Quiz, Answers, Choice } from './quiz.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   answers: Answers;
   quiz: Quiz;
