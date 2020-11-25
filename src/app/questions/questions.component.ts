@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 import { switchMap } from 'rxjs/operators';
 
-import { QuestionsService } from '../literature.service'; // instead of literature.service which is the name I gave, this might be questions.service
+import { QuestionsService } from '../questions.service'; // instead of literature.service which is the name I gave, this might be questions.service
 import { Quiz, Answers, Choice, Question } from '../quiz.model';
 
 @Component({
