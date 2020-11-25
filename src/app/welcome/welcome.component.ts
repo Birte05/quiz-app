@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { QuestionsService } from '../questions.service';
 import { Quiz } from '../quiz.model';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -15,6 +16,7 @@ export class WelcomeComponent implements OnInit {
       this.quiz = response;
     });
   }
+
   ngOnInit(): void {
   }
 
