@@ -9,7 +9,7 @@ import { Question } from '../quiz.model';
 })
 export class QuestionFormComponent implements OnInit {
 
-  @Input() question!: Question;
+  @Input() question: Question;
   @Output() onChoiceMade = new EventEmitter<string>();
 
   public form: FormGroup;
