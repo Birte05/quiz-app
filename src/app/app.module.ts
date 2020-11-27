@@ -15,6 +15,7 @@ import { QuestionsComponent } from './questions/questions.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
     QuestionFormComponent,
     ResultsComponent,
     WelcomeComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    ComponentNameComponent
   ],
   imports: [
     BrowserModule,
